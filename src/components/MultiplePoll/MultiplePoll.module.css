@@ -35,7 +35,7 @@
   padding: 1rem;
   font-weight: bold;
 }
-.answer span {
+.votesContainer {
   position: absolute;
   right: 1rem;
   top: 25%;

@@ -68,10 +68,10 @@ const MultiplePoll = ({
             <p style={{ color: theme?.textColor }}>{result.text}</p>
           </div>
           {voted && (
-            <React.Fragment>
+            <div>
               <span style={{ color: theme?.textColor }}>{result.percentage}%</span>
               <span className='votesCount'>({result.votes})</span>
-            </React.Fragment>
+            </div>
           )}
         </div>
       ))}

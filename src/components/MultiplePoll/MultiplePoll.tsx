@@ -68,9 +68,10 @@ const MultiplePoll = ({
             <p style={{ color: theme?.textColor }}>{result.text}</p>
           </div>
           {voted && (
-            <span style={{ color: theme?.textColor }}>
-              {result.percentage}% (<span className='votesCount'>{result.votes}</span>)
-            </span>
+            <>
+              <span style={{ color: theme?.textColor }}>{result.percentage}%</span>
+              <span className='votesCount'>({result.votes})</span>
+            </>
           )}
         </div>
       ))}

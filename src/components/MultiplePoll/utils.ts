@@ -60,7 +60,7 @@ function animateAnswers(
           width: `${ans.percentage}%`,
           easing: 'ease-out',
           backgroundColor: `${
-            ans.id === isVotedId ? theme?.mainColor : '#c8f7d5'
+            ans.id === isVotedId ? theme?.mainColor : '#dcf7ee'
           }`
         }
       ],
@@ -68,7 +68,7 @@ function animateAnswers(
     )
     answers[ans.id].style.width = `${ans.percentage}%`
     answers[ans.id].style.backgroundColor = `${
-      ans.id === isVotedId ? theme?.mainColor : '#c8f7d5'
+      ans.id === isVotedId ? theme?.mainColor : '#dcf7ee'
     }`
   }
 }
